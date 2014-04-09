@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AdapterCalisma</string>
+    <string name="action_settings">Settings</string>
+    <string-array name = "names">
+        <item >Alaattin Usta</item>
+        <item >Osman Bayraktaroğlu</item>
+        <item >Bedrettin Yavaşi</item>
+        <item >Kahraman Bilgin</item>
+        <item >Fatih Durmuş</item>
+    </string-array>
+
+</resources>

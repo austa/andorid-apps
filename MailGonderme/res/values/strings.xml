@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MailGonderme</string>
+    <string name="action_settings">Settings</string>
+    <string name="alici">Alıcı Adresi</string>
+    <string name="icerik_hakkinda">Konu</string>
+    <string name="mail_govde">Mail</string>
+    <string name="baslik">Mail gönderme programı</string>
+    <string name="mail_gonder">Mail Gönder</string>
+
+</resources>
