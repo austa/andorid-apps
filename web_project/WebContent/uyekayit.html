@@ -1,0 +1,140 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title> Alaattin Usta Web Programlama Projesi</title>
+    	<link type="text/css" rel="stylesheet" href="css/tasarim.css" />
+		<script src="//code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		<script src="js/myScript.js"></script>
+	</head>
+	<body>
+		<div> 
+			<fieldset id="login">
+				<legend> Üye Kaydı </legend>
+				<form id="signUp" action="Uyekayit"  method="post">
+					
+					İsim : <br>
+					<input name="name" id="name" type="text" placeHolder="Lütfen isminizi giriniz"  required="true" requiredmessage="Lütfen isminizi yazınız"  autofocus><br>
+					
+					<div id="name_information" class="information_message"></div><br>
+
+					Soyisim : <br>
+					<input type="text"  name="surname" id="surname" placeHolder="Lütfen soyisminizi giriniz" required="true" > <br>
+					
+					Dogum Tarihi : <br>
+					<input name="born_date" id="datepicker" type="text" required="true" > <br>		
+					
+					Cinsiyet : <br> 
+					<input name="gender" id="gender" type="radio" value="Erkek" required="true" >Erkek<br>
+					<input name="gender" id="gender" type="radio" value="Kız" required="true" >Kız<br>			
+					
+					Şehir : <br>
+					
+
+<select name="city" required="true" >
+	<option value=''>Lütfen bir şehir seçin</option>
+<option value='ADANA'>ADANA</option>
+<option value='ADIYAMAN'>ADIYAMAN</option>
+<option value='AFYONKARAHİSAR'>AFYONKARAHİSAR</option>
+<option value='AĞRI'>AĞRI</option>
+<option value='AMASYA'>AMASYA</option>
+<option value='ANKARA'>ANKARA</option>
+<option value='ANTALYA'>ANTALYA</option>
+<option value='ARTVİN'>ARTVİN</option>
+<option value='AYDIN'>AYDIN</option>
+<option value='BALIKESİR'>BALIKESİR</option>
+<option value='BİLECİK'>BİLECİK</option>
+<option value='BİNGÖL'>BİNGÖL</option>
+<option value='BİTLİS'>BİTLİS</option>
+<option value='BOLU'>BOLU</option>
+<option value='BURDUR'>BURDUR</option>
+<option value='BURSA'>BURSA</option>
+<option value='ÇANAKKALE'>ÇANAKKALE</option>
+<option value='ÇANKIRI'>ÇANKIRI</option>
+<option value='ÇORUM'>ÇORUM</option>
+<option value='DENİZLİ'>DENİZLİ</option>
+<option value='DİYARBAKIR'>DİYARBAKIR</option>
+<option value='EDİRNE'>EDİRNE</option>
+<option value='ELAZIĞ'>ELAZIĞ</option>
+<option value='ERZİNCAN'>ERZİNCAN</option>
+<option value='ERZURUM'>ERZURUM</option>
+<option value='ESKİŞEHİR'>ESKİŞEHİR</option>
+<option value='GAZİANTEP'>GAZİANTEP</option>
+<option value='GİRESUN'>GİRESUN</option>
+<option value='GÜMÜŞHANE'>GÜMÜŞHANE</option>
+<option value='HAKKARİ'>HAKKARİ</option>
+<option value='HATAY'>HATAY</option>
+<option value='ISPARTA'>ISPARTA</option>
+<option value='MERSİN'>MERSİN</option>
+<option value='İSTANBUL'>İSTANBUL</option>
+<option value='İZMİR'>İZMİR</option>
+<option value='KARS'>KARS</option>
+<option value='KASTAMONU'>KASTAMONU</option>
+<option value='KAYSERİ'>KAYSERİ</option>
+<option value='KIRKLARELİ'>KIRKLARELİ</option>
+<option value='KIRŞEHİR'>KIRŞEHİR</option>
+<option value='KOCAELİ'>KOCAELİ</option>
+<option value='KONYA'>KONYA</option>
+<option value='KÜTAHYA'>KÜTAHYA</option>
+<option value='MALATYA'>MALATYA</option>
+<option value='MANİSA'>MANİSA</option>
+<option value='KAHRAMANMARAŞ'>KAHRAMANMARAŞ</option>
+<option value='MARDİN'>MARDİN</option>
+<option value='MUĞLA'>MUĞLA</option>
+<option value='MUŞ'>MUŞ</option>
+<option value='NEVŞEHİR'>NEVŞEHİR</option>
+<option value='NİĞDE'>NİĞDE</option>
+<option value='ORDU'>ORDU</option>
+<option value='RİZE'>RİZE</option>
+<option value='SAKARYA'>SAKARYA</option>
+<option value='SAMSUN'>SAMSUN</option>
+<option value='SİİRT'>SİİRT</option>
+<option value='SİNOP'>SİNOP</option>
+<option value='SİVAS'>SİVAS</option>
+<option value='TEKİRDAĞ'>TEKİRDAĞ</option>
+<option value='TOKAT'>TOKAT</option>
+<option value='TRABZON'>TRABZON</option>
+<option value='TUNCELİ'>TUNCELİ</option>
+<option value='ŞANLIURFA'>ŞANLIURFA</option>
+<option value='UŞAK'>UŞAK</option>
+<option value='VAN'>VAN</option>
+<option value='YOZGAT'>YOZGAT</option>
+<option value='ZONGULDAK'>ZONGULDAK</option>
+<option value='AKSARAY'>AKSARAY</option>
+<option value='BAYBURT'>BAYBURT</option>
+<option value='KARAMAN'>KARAMAN</option>
+<option value='KIRIKKALE'>KIRIKKALE</option>
+<option value='BATMAN'>BATMAN</option>
+<option value='ŞIRNAK'>ŞIRNAK</option>
+<option value='BARTIN'>BARTIN</option>
+<option value='ARDAHAN'>ARDAHAN</option>
+<option value='IĞDIR'>IĞDIR</option>
+<option value='YALOVA'>YALOVA</option>
+<option value='KARABÜK'>KARABÜK</option>
+<option value='KİLİS'>KİLİS</option>
+<option value='OSMANİYE'>OSMANİYE</option>
+<option value='DÜZCE'>DÜZCE</option>
+
+</select><br><br>		
+					
+					Email : <br> 
+					<input name="email" id="email" type="text" placeHolder="Lütfen email adresinizi giriniz"  required="true" > <br>			
+					
+					Şifre : <br>
+					<input type="password"  name="password" id="password" placeHolder="Lütfen şifrenizi giriniz" required="true" > <br>
+					<div id="password_information" class="information_message"></div><br>
+
+					Şifre Tekrarı : <br>
+					<input name="retryPassword" id="retryPassword" type="password" placeHolder="Lütfen şifrenizi tekrar giriniz"  required="true" > <br>
+					<div id="retry_password_information" class="information_message"></div><br>
+						
+					<center>
+						<input type="submit" id="enter" value=" Sisteme Kaydol">
+					</center>
+				</form>
+			</fieldset>
+		</div>
+	</body>
+</html>
+
+

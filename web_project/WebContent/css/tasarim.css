@@ -1,0 +1,35 @@
+#login {
+	width:15%;
+	line-height:2em;
+	margin-top:5%;
+	margin-left:41.5%;
+	height:auto;
+	border-radius:5px;
+}
+#isim{
+	font-style:italic;
+	font-size:14px;
+	
+}
+#soyisim{
+	font-style:italic;
+	font-size:14px;
+	
+}
+#email{
+	font-style:italic;
+	font-size:14px;
+	
+}
+#sifre{
+	font-style:italic;
+	font-size:14px;
+}
+#sifretekrar{
+	font-style:italic;
+	font-size:14px;
+}
+body{
+	background-color:#D8D8D8;
+}
+

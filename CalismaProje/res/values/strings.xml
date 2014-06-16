@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calisma Proje</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string-array name = "names">
+        <item > Alaattin Usta</item>
+        <item >Mehmet Başal</item>
+        <item >Ensar Hamzaçebi</item>
+        <item >Hurşit Topal</item>       
+    </string-array>
+
+</resources>

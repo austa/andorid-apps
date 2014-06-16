@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Veritabani2</string>
+    <string name="action_settings">Settings</string>
+    <string name="ad">Ad: </string>
+    <string name="soyad">Soyad: </string>
+    <string name="yas">Yaş: </string>
+    <string name="sehir">Şehir: </string>
+    <string name="kayitekle">Kaydı Ekle</string>
+    <string name="kayitsil">Kaydı Sil</string>
+    <string name="kayitgoster">Kayıtları Goster</string>
+    <string name="kayitguncelle">Kayıtları Güncelle</string>
+
+</resources>
